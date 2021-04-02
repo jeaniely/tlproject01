@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--spring约束-->
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <bean class="com.com.neuedu.core.bean.Student" id="student" scope="prototype">
+  <property name="name" value="zhangnsan"/>
+  <property name="age" value="12"/>
+ </bean>
+<bean class="com.com.neuedu.core.bean.Person" name="person">
+ <constructor-arg name="student" ref="student"/>
+</bean>
+ </beans>

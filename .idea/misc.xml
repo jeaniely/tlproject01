@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/tlproject/springmvcseven" />
+    <file type="web" url="file://$PROJECT_DIR$/tlproject/springmvcsix" />
+    <file type="web" url="file://$PROJECT_DIR$/tlproject/ssm" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../first/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/one/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/two/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/three01/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/four/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/four02/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/springmvcsix/pom.xml" />
+        <option value="$PROJECT_DIR$/tlproject/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot02/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/tlproject/two/three/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

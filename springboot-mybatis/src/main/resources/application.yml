@@ -1,0 +1,40 @@
+#datasourceds:
+#  datasource:
+#    url: jdbc:mysql://192.168.238.125:3306/pt?characterEncoding=utf8
+#    username: root
+#    password: 123456
+#    driverClassName: com.mysql.jdbc.Driver
+#    initialSize: 20
+#    minIdle: 20
+#    maxActive: 200
+#    maxWait: 60000
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    poolPreparedStatements: true
+#    maxPoolPreparedStatementPerConnectionSize: 20
+
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+
+
+spring:
+  application:
+    name: security
+  datasource:
+    url: jdbc:mysql://192.168.238.125:3306/pt?characterEncoding=utf-8
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+server:
+  port: 8899

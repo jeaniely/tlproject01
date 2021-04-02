@@ -1,0 +1,10 @@
+# Project exclude paths
+/springboot02/target/
+/tlproject/four/target/
+/tlproject/four02/target/
+/tlproject/one/target/
+/tlproject/springmvcseven/target/
+/tlproject/springmvcsix/target/
+/tlproject/ssm/target/
+/tlproject/three01/target/
+/tlproject/two/target/

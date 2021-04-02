@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="one" />
+        <module name="springmvcsix" />
+        <module name="springmvcseven" />
+        <module name="four02" />
+        <module name="springboot-mybatis" />
+        <module name="ssm" />
+        <module name="springboot02" />
+        <module name="three01" />
+        <module name="springboot01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="first" target="1.5" />
+      <module name="four" target="8" />
+      <module name="four02" target="8" />
+      <module name="one" target="1.5" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot01" target="1.8" />
+      <module name="springboot02" target="8" />
+      <module name="springmvcseven" target="1.7" />
+      <module name="springmvcsix" target="1.7" />
+      <module name="ssm" target="8" />
+      <module name="three" target="8" />
+      <module name="three01" target="8" />
+      <module name="two" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot01" options="-parameters" />
+      <module name="springboot02" options="-parameters" />
+    </option>
+  </component>
+</project>
